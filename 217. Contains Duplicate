@@ -5,9 +5,7 @@ class Solution {
             if(seen.contains(i)){
                 return true;
             }
-            else{
-                seen.add(i);
-            }
+            seen.add(i);
         }
         return false;
     }
