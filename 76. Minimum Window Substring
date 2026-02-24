@@ -1,12 +1,6 @@
-package leetcode.hard;
+class Solution {
 
-/**
- * Created by nikoo28 on 11/9/19 1:41 AM
- */
-
-class MinimumWindowSubstring {
-
-  String minWindow(String s, String t) {
+  public String minWindow(String s, String t) {
 
     // Count characters in s
     int[] mapS = new int[256];
